@@ -23,3 +23,16 @@ streamlit run dashboard_streamlit.py
 ## Funcionalidades do Painel
 
 ### Métricas-chave exibidas
+#### 1. **Distribuição das ofertas selecionadas**
+-  **Gráficos**: Gráfico circular e histograma
+-  **Detalhes**: Número de inscritos por pacote (Premium, Essencial, Standard, Vantagem)
+-  **Análise**: Preços médios, mínimos e máximos por pacote
+
+#### 2. **Distribuição geográfica**
+-  **Gráficos**: Histograma e mapa interativo
+-  **Dados**: Número de participantes por país
+-  **Visualização**: Mapa com marcadores proporcionais
+
+#### 3. **Formas de pagamento**
+-  **Gráficos**: Barras e anéis
+-  **Análise**: Distribuição das opções (Mobile Money, cartão de crédito, etc.)
