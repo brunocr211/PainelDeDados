@@ -36,3 +36,20 @@ streamlit run dashboard_streamlit.py
 #### 3. **Formas de pagamento**
 -  **Gráficos**: Barras e anéis
 -  **Análise**: Distribuição das opções (Mobile Money, cartão de crédito, etc.)
+#### 4. **Evolução temporal**
+- **Gráficos**: Linhas temporais
+- **Análises**: 
+  - Inscrições por dia
+  - Inscrições por hora
+  - Distribuição por dia da semana
+
+#### 5. **Estatísticas de idade**
+- **Gráficos**: Histograma de idades
+- **Faixas**: Distribuição por faixas etárias (se disponível)
+
+### **Funcionalidades Interativas Avançadas**
+- **Filtragem por período**: Seletores de datas de início/fim
+- **Filtragem por país**: Seleção com vários critérios
+- **Filtragem por pacote**: Análise direcionada por oferta
+- **Filtragem por pagamento**: Segmentação por método
+- **Atualização em tempo real**: Botão para atualizar os dados
