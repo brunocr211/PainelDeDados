@@ -53,3 +53,15 @@ streamlit run dashboard_streamlit.py
 - **Filtragem por pacote**: Análise direcionada por oferta
 - **Filtragem por pagamento**: Segmentação por método
 - **Atualização em tempo real**: Botão para atualizar os dados
+## Configuração Técnica
+
+### Pré-requisitos
+- Python 3.7+
+- Ficheiro `Formulário_FINAL_OPTIMIZADO.xlsx` no mesmo diretório
+
+### Bibliotecas utilizadas
+- `streamlit`: Interface web interativa
+- `plotly`: Gráficos interativos modernos
+- `pandas`: Manipulação e análise de dados
+- `folium`: Mapas geográficos interativos
+- `streamlit-extras`: Componentes avançados da interface do utilizador
