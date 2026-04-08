@@ -65,3 +65,8 @@ streamlit run dashboard_streamlit.py
 - `pandas`: Manipulação e análise de dados
 - `folium`: Mapas geográficos interativos
 - `streamlit-extras`: Componentes avançados da interface do utilizador
+
+### Porta predefinida
+- **URL local**: http://localhost:8501 (ou porta automática disponível)
+
+## Estrutura dos ficheiros
