@@ -70,3 +70,37 @@ streamlit run dashboard_streamlit.py
 - **URL local**: http://localhost:8501 (ou porta automática disponível)
 
 ## Estrutura dos ficheiros
+```
+├── dashboard_streamlit.py           # Aplicação principal
+├── styles.css                      # Estilos CSS personalizados
+├── limpeza_formulário.py         # Script de limpeza de dados
+├── iniciar_dashboard.py             # Script de início automático
+├── Formulário_FINAL_OTIMIZADO.xlsx  # Dados finais limpos
+├── Formulário sem título (respostas).xlsx  # Dados originais
+├── .streamlit/
+│   └── config.toml                 # Configuração do tema e do servidor
+└── README_Dashboard.md             # Documentação completa
+```
+
+## Design e Interface
+
+### **Design Premium Aplicado**
+- **Tema moderno**: Configuração de cores consistentes via `config.toml`
+- **CSS personalizado**: Estilos avançados com gradientes e animações
+- **Interface responsiva**: Adaptação automática para dispositivos móveis/computadores
+- **Gráficos de métricas**: Design moderno com efeitos de hover
+- **Barra lateral elegante**: Centro de controlo com design premium
+
+### **Melhorias de UX/UI**
+- **Animações fluidas**: Transições e efeitos visuais
+- **Cores temáticas**: paleta harmoniosa e profissional
+- **Tipografia moderna**: tipo de letra otimizado para a legibilidade
+- **Layout otimizado**: disposição equilibrada dos elementos
+- **Economia de espaço**: filtros agrupados numa linha
+
+## Funcionalidades interativas
+
+###  Gráficos interativos
+- **Zoom** e **panorâmica** em todos os gráficos
+- **Passar o cursor** para exibir os detalhes
+- **Legendas** clicáveis para filtrar
