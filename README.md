@@ -104,3 +104,23 @@ streamlit run dashboard_streamlit.py
 - **Zoom** e **panorâmica** em todos os gráficos
 - **Passar o cursor** para exibir os detalhes
 - **Legendas** clicáveis para filtrar
+### Transferências
+- **CSV**: Exportação de dados para Excel/análise
+- **Excel**: Ficheiro formatado com todas as colunas
+
+### Interface responsiva
+- Compatível com dispositivos móveis, tablets e computadores
+- Barra lateral com informações gerais
+- Gráficos de métricas no topo da página
+
+## Resolução de problemas
+
+### O painel não inicia
+```bash
+```
+# Verifique a instalação do Streamlit
+pip install streamlit plotly folium streamlit-folium
+
+# Reinicie com mais detalhes
+streamlit run dashboard_streamlit.py --logger.level=debug
+
