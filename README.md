@@ -124,3 +124,43 @@ pip install streamlit plotly folium streamlit-folium
 # Reinicie com mais detalhes
 streamlit run dashboard_streamlit.py --logger.level=debug
 
+### Dados não encontrados
+- Verifique se o ficheiro `Formulário_FINAL_OPTIMIZADO.xlsx` está na pasta correta
+- Certifique-se de que o ficheiro não está corrompido
+
+### Porta já em uso
+```bash
+# Utilize outra porta
+streamlit run dashboard_streamlit.py --server.port 8502
+```
+
+## Utilização recomendada
+
+1. **Início**: Utilize `python lancer_dashboard.py`
+2. **Navegação**: Explore as diferentes secções por ordem
+3. **Análise**: Utilize os gráficos interativos para aprofundar
+4. **Exportação**: Descarregue os dados para análises externas
+
+## Casos de Utilização
+
+### Para o Marketing
+- Analisar as preferências geográficas
+- Identificar os horários de maior afluência
+- Compreender as escolhas de pacotes
+
+### Para as Vendas
+- Acompanhar a evolução das inscrições
+- Analisar os métodos de pagamento preferidos
+- Identificar os segmentos etários-alvo
+
+### Para a Qualidade
+- Verificar a validade dos dados de contacto
+- Identificar problemas de introdução de dados
+- Controlar a coerência geográfica
+
+---
+
+** Aproveite a sua análise de dados interativa!**
+
+
+Traduzido com a versão gratuita do tradutor - DeepL.com
